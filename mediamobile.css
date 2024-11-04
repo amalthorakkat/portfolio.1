@@ -1,0 +1,73 @@
+@media (max-width:425px){
+
+
+    .logobackground{
+        height: 50px;
+        padding: 10px 0px 10px 0px;
+        border-radius: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container1{
+        height: auto;
+        padding: 200px 20px 100px 20px;
+    }
+
+    .webdevtext{
+        font-family: "Sora", sans-serif;
+        letter-spacing: 2px;
+        line-height:50px;
+        text-transform: uppercase;
+        text-shadow: 2px 3px 3px;
+        font-size: 40px;
+        margin: 0;
+        text-align: center;
+        font-weight: 900;
+        padding: 20px 0px 20px 0px;
+    }
+
+    .projects > div > h1{
+        font-size: 50px;
+        margin: 0;
+        font-family: "Sora", sans-serif;
+        color: black;
+        letter-spacing: 2px;
+    }
+
+    .container2 > div > h1{
+        font-size: 50px;
+        margin: 0;
+        font-family: "Sora", sans-serif;
+        color: black;
+        letter-spacing: 2px;
+    }
+
+      
+ 
+    .card2 > div {
+        width: 300px;
+        font-family: "Sora", sans-serif;
+        font-size: 17px;
+        letter-spacing: 2px;
+        color: #353535;
+    }
+
+    .container3card1, .container3card2, .container3card3 {
+     width: auto;   
+    }
+
+    .about-me{
+        text-align: center;
+        padding: 100px 20px 100px 20px;
+        font-family: "Sora", sans-serif;
+    }
+
+    .about-me > h1{
+        font-size: 50px;
+        margin: 0;
+        padding-bottom: 30px;
+    }
+
+}

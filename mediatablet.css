@@ -1,0 +1,138 @@
+@media (max-width: 768px){
+
+    .logobackground > img{
+        height: 50px;
+    }
+    
+    .container1{
+        gap: 10px;
+        flex-direction: column;
+        height: 100vh;
+        padding-top: 100px;
+    }
+    
+    .img-profile > img{
+        height: 200px;
+        border-radius: 50%;
+    
+    }
+    
+    .card1{
+        display: flex;
+        flex-direction:column;
+        order: 1;
+        }
+    
+        
+    .card1 > div > h2{
+        color: black;
+        font-size: 25px;
+        font-weight: 700;
+        margin: 0;
+        text-align: center;
+        font-family: "Sora", sans-serif;
+    }
+    
+        .container2 > div > h1{
+            font-size: 150px;
+            margin: 0;
+            font-family: "Sora", sans-serif;
+            color: black;
+            letter-spacing: 2px;
+        }
+    
+        .webdevtext{
+            font-family: "Sora", sans-serif;
+            letter-spacing: 2px;
+            line-height:90px;
+            text-transform: uppercase;
+            text-shadow: 2px 3px 3px;
+            font-size: 100px;
+            margin: 0;
+            text-align: center;
+            font-weight: 900;
+            padding: 20px 0px 20px 0px;
+        }
+
+    
+        .card2{
+            justify-content: center;
+            text-align: center;
+        }
+    
+        .projects > div > h1{
+            font-size: 150px;
+            margin: 0;
+            font-family: "Sora", sans-serif;
+            color: black;
+            letter-spacing: 2px;
+        }
+    
+    .about-me{
+        text-align: center;
+        font-family: "Sora", sans-serif;
+        }
+    
+    .container3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        gap: 0;
+        padding: 40px 20px 40px 20px;
+        height: auto;
+        background-color: black;
+        border-radius: 30px 30px 0px 0px;
+        background: linear-gradient(rgba(0, 0, 0, 0.900),
+        rgba(0, 0, 0, 0.900)),url(./images/bg1.png);
+    }
+    
+    .container3card1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(214, 214, 214);
+        width:650px;
+        height: 400px;
+        padding: 30px;
+        margin-bottom: 20px;
+        border-radius: 30px;
+        font-family: "Sora", sans-serif;
+        
+    }
+    
+    .container3card2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(214, 214, 214);
+        width:650px;
+        height: 400px;
+        padding: 30px;
+        margin-bottom: 20px;
+        border-radius: 30px;
+        font-family: "Sora", sans-serif;
+    }
+    
+    .container3card3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(214, 214, 214);
+        width: 650px;
+        height: 400px;
+        padding: 30px;
+        border-radius: 30px;
+        font-family: "Sora", sans-serif;
+    }
+
+    .cardmarginbottom{
+        margin-bottom: 50px;
+    }
+    
+    .about-me{
+        padding: 100px;
+    }
+    
+    
+    }

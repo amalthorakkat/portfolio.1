@@ -1,0 +1,276 @@
+@media (min-width: 1024px) and (max-height: 1310px){
+
+body{
+margin: 0;
+padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+.logobackground{
+    background: linear-gradient(rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)),url(./images/bg1.png);
+    padding: 20px 60px 0px 60px;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.logobackground > img{
+    height: 60px;
+}
+
+.container1{
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 110vh;
+    background-color: #ECDFCC;
+    margin-top: -100px;
+}
+
+.card2{
+    display: flex;
+    justify-content: flex-end;
+} 
+.card2 > div {
+    width: 400px;
+    font-family: "Sora", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #353535;
+}
+
+.img-profile > img{
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 10px 10px 30px;
+}
+
+
+.card1 > div > h2{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    font-family: "Sora", sans-serif;
+}
+
+.webdevtext{
+    font-family: "Sora", sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 2px 3px 3px;
+    font-size: 100px;
+    margin: 0;
+    text-align: left;
+    font-weight: 900;
+}
+
+.webdevtextmob{
+    display: none;
+}
+
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-color: #ffffff;
+}
+
+
+
+.container2 > div > h1{
+    font-size: 300px;
+    margin: 0;
+    font-family: "Sora", sans-serif;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-color: #ffffff;
+}
+
+.projects > div > h1{
+    font-size: 300px;
+    margin: 0;
+    font-family: "Sora", sans-serif;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 80vh;
+    background-color: black;
+    border-radius: 50px 50px 0px 0px;
+    background: linear-gradient(rgba(0, 0, 0, 0.900),
+    rgba(0, 0, 0, 0.900)),url(./images/bg1.png);
+}
+
+.container3card1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+    width: 300px;
+    height: 400px;
+    padding: 30px;
+    border: 5px solid #5f5f5f;
+    border-radius: 30px;
+    font-family: "Sora", sans-serif;
+    
+}
+.container3card2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+    width: 500px;
+    height: 400px;
+    padding: 30px;
+    border: 5px solid #5f5f5f;
+    border-radius: 30px;
+    font-family: "Sora", sans-serif;
+}
+
+.container3card2  h1{
+    margin-bottom: 30px;
+}
+
+.container3card3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+    width: 300px;
+    height: 400px;
+    padding: 30px;
+    border: 5px solid #5f5f5f;
+    border-radius: 30px;
+    font-family: "Sora", sans-serif;
+}
+
+.alterneit{
+    display: flex;
+    flex-direction: column;
+    height: 475px;
+    width: 300px;
+    background-color: white;
+    border: 5px solid #5f5f5f;
+    border-radius: 30px;
+    overflow: hidden;
+
+}
+
+.rekenhaus{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 300px;
+    background-color: white;
+    border: 5px solid #5f5f5f;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.aspen{
+    display: flex;
+    flex-direction: column;
+    height: 475px;
+    width: 300px;
+    background-color: white;
+    border: 5px solid #5f5f5f;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.proparagraph{
+   padding: 20px;
+   font-family: "Sora", sans-serif;
+   text-align: center;
+   margin: 0;
+}
+
+.vertical-center{
+    display: flex;
+    justify-content: center;
+} .vertical-center2{
+    display: flex;
+    justify-content: center;
+    padding: 45px 0px 10px 0px;
+}
+
+.button{
+    background-color: white; 
+    color: black;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+    font-family: "Sora", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.button:hover {
+    background-color:black; 
+    color:white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+    font-family: "Sora", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.about-me{
+    text-align: center;
+    padding: 200px 400px;
+    font-family: "Sora", sans-serif;
+}
+
+.about-me > h1{
+    font-size: 100px;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.about-me img{
+    border-radius: 50%;
+}
+ 
+.footer{
+    background: linear-gradient(rgba(0, 0, 0, 0.900),
+    rgba(0, 0, 0, 0.900)),url(./images/bg1.png);
+    color:  #b3b3b3;
+    text-align: center;
+    padding: 40px 0px 10px 0px;
+}
+
+.footer a{
+    margin: 0px 20px;
+    color: #b3b3b3;
+    text-decoration: none;
+    font-family:sans-serif;
+}
+
+.footer p{
+    margin: 30px ;
+}
+
+}
