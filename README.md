@@ -1,2 +1,3 @@
 # portfolio.1
-sampleProject
+Capstone Project - HTML & CSS Only
+This is a responsive web project developed using only HTML and CSS, showcasing a clean and minimalistic design.
